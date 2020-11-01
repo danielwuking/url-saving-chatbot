@@ -43,7 +43,7 @@ re = requests.get(url)
 re.encoding = 'utf-8' #需要新增這一行，告知html檔案解碼方式
 soup = BeautifulSoup(re.text, 'html.parser')
 url_txt = soup.text
-tag = jieba.analyse.extract_tags(url_txt, topK=100)
+tag = jieba.analyse.extract_tags(url_txt, topK=40)
 tags_added = set()
 for i in tag:
     if i not in tags_dic and i not in tags_added:

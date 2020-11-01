@@ -3828,7 +3828,7 @@ negotiator@0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
 
-ngrok@^3.2.5:
+ngrok@^3.2.5, ngrok@^3.2.7:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/ngrok/-/ngrok-3.2.7.tgz#774e66b4c8c56bae2c95e9859ea046844d03d03c"
   dependencies:
@@ -4320,6 +4320,11 @@ pupa@^2.0.1:
   resolved "https://registry.yarnpkg.com/pupa/-/pupa-2.0.1.tgz#dbdc9ff48ffbea4a26a069b6f9f7abb051008726"
   dependencies:
     escape-goat "^2.0.0"
+
+python-shell@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/python-shell/-/python-shell-1.0.8.tgz#067bc93d790913efaa4b2a3c9d0e85e02adab510"
+  integrity sha512-jMKagerg3alm6j+Prq5t/M3dTgEppy5vC6ns+LqAjfuHiT8olfK3PMokpqpeEcWEqvDnUcAOhp6SQzaLBtTzRw==
 
 q@^1.1.2:
   version "1.5.1"
