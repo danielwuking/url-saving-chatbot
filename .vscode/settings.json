@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "time.h": "c",
+        "__mutex_base": "cpp",
+        "thread": "cpp"
+    }
+}
