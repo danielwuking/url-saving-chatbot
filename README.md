@@ -1,52 +1,17 @@
-This project was bootstrapped with
-[Bottender](https://github.com/Yoctol/bottender) init script.
+# URL-Saving-Chatbot on LINE
 
-## Sending Feedback
+## Introduction
+This is a LINE chatbot which could storage the url for users.
 
-Always feel free to open issue to
-[Bottender](https://github.com/Yoctol/bottender/issues).
+For each url, the application would crawl the content in website and add the tag on it. Users could get the url they had saved by typing in the tag.
 
-## Folder Structure
+## Demo
+* Type in the **url** with **"save:"** on the beginning of the sentence to save a url.
+* Type in the **tag** with **"s:"** or **"search:"** on the beginning of the sentence to search for the relational url.
 
-After creation, your project should look like this:
+![saving and searching](https://github.com/danielwuking/url-saving-chatbot/blob/master/saving_and_searching%20.png)
 
-```
-my-bot/
-  .gitignore
-  node_modules/
-  bottender.config.js
-  index.js
-  package.json
-  README.md
-  yarn.lock
-```
+* Type in the **tag** with **"加:"** on the beginning of the sentence to add a tag on the url.
+* Type in the **ID** with **"刪除:"** on the beginning of the sentence to remove the url you have saved.
 
-### index.js
-
-All functionalities start from here.\
-Mainly it's a server which listen on port 5000. You are encouraged to add more [event listener](https://bottender.js.org/docs/APIReference-Event?new)
-and [`Handler`](https://bottender.js.org/docs/APIReference-Handler?new) to enrich the bot.
-
-See more examples, please refer to
-[Bottender examples](https://github.com/Yoctol/bottender/tree/master/examples).
-
-### bottender.config.js
-
-The config file for the bot.\
-We suggests you to put all platform configs into this file and use it as a parameter
-of createServer.
-
-## Available Scripts
-
-There are two default scripts you can run:
-
-### `npm run dev`
-
-Run the bot in the development mode.\
-It will automatically restart the bot if there are any changes in `index.js`.\
-For more information, check [nodemon's repo](https://github.com/remy/nodemon)
-
-### `npm start`
-
-Run the bot without being monitored.\
-The bot won't be restarted when you change anything in `index.js`
+![adding_tag_and_deleting_tag](https://github.com/danielwuking/url-saving-chatbot/blob/master/adding_tag_and_deleting_tag.png)
